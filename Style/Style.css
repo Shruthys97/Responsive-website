@@ -1,0 +1,725 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.main{
+    background-image: url("../Images/mainbg.jpg");
+    height: 421px;
+    overflow: hidden;
+    background-position: center;
+}
+
+nav{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#get-app{
+    color: white;
+    font-weight:lighter;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+#get-app:hover{
+    cursor: pointer;
+}
+
+#nav-option ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#nav-option li{
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+#nav-option li:hover{
+    cursor: pointer;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#zomato-head{
+    padding: 40px 0;
+}
+
+#main-title{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#main-title:hover{
+    cursor: auto;
+}
+
+#main-button{
+    padding: 0 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 590px;
+}
+
+#first-part{
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+#first-part div{
+    display: flex;
+
+}
+
+#first-part:hover{
+    cursor: auto;
+}
+
+.space{
+    margin-left: 6px;
+}
+
+.bar{
+    height: 28px;
+    width: 1px;
+    background-color: rgba(163, 161, 161, 0.822);
+}
+
+#second-part{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.body-content{
+    margin: 0 81px;
+}
+
+.body-cards{
+    margin: 38px 0;
+    min-height: 300px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+}
+
+.card{
+    
+    background-position: center;
+    position: relative;
+    transition: transform 0.1s;
+    width: 100%;
+    max-width: 349px;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card div{
+    color: rgb(74, 73, 73);
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding-top: 20px;
+    padding: 15px;
+    border: 1px solid rgba(194, 192, 192, 0.596);
+}
+
+#c1{
+    background-image: url("../Images/card\ 1.jpg");
+}
+
+#c2{
+    background-image: url("../Images/card\ 2.jpg");
+}
+
+#c3{
+    background-image: url("../Images/card\ 3.jpg");   
+}
+
+
+.card p{
+    color: rgb(97, 97, 97);
+}
+/* body cards ending */
+
+
+/* collections starting */
+.body-slide{
+    min-height: 530px;
+}
+
+.collections{
+    font-size: 26px;
+    font-weight:lighter;
+}
+.explore{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+#explore-left{
+    padding-top: 1px;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    font-weight: 100px;
+}
+
+#all-collections{
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 15px;
+    color: rgb(224, 100, 100);
+    background-color: white;
+}
+
+
+.slides{
+    margin: 20px 0;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.slide{
+    height: 320px;
+    color: white;
+    top: 83%;
+    padding-left: 15px;
+    max-width: 269px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+}
+
+#s1{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.742)), url("../Images/snap\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#s2{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.742)), url("../Images/snap\ 2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#s3{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.742)), url("../Images/snap\ 3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#s4{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.742)), url("../Images/snap\ 4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slide p{
+    font-size: large;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.sub p{
+    font-size: 15px;
+}
+/* collections ending */
+
+
+/* popular localities starting */
+.popular-localities{
+    min-height: 480px;
+}
+
+.localities{
+    font-size: 35px;
+    color: rgb(54, 54, 54);
+    margin-bottom: 40px;
+}
+
+.localities-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32%;
+}
+
+.box{
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(149, 148, 148, 0.34);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 80px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.see-more {
+    font-size: 18px;
+    color: rgb(61, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+    transform: translateY(1px); /* Lift the box slightly */
+}
+
+.down-icon{
+    padding-top: 10px;
+}
+
+.left{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+.up{
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    padding-top: 5px;
+}
+
+.down{
+    padding-top: 4px;
+    color: rgb(92, 91, 91);
+}
+
+.right{
+    align-content: center;
+}
+
+
+/* zomato app download */
+.get-zomato-app{
+    min-height: 340px;
+    background-color: rgb(255, 251, 247);
+    padding: 60px 0;
+}
+
+.zomato-app{
+    display: flex;
+    justify-content: center;
+}
+
+.left-side{
+    
+    padding-top: 50px;
+}
+
+.right-side{
+    
+    padding: 0 10px;
+}
+
+.right-head{
+    font-size: 40px;
+}
+
+.right-title{
+    padding: 10px 0;
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+form div{
+    margin: 12px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #df4357; 
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+.form-radio{
+    font-size: 18px;
+    color: rgb(92, 91, 91);
+}
+
+.form-radio:hover{
+    cursor: pointer;
+}
+
+.app-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-details{
+    padding-top: 18px;
+    padding-right: 30px;
+}
+
+input[type="email"] {
+    width: 290px;
+    height: 45px;
+    font-size: 17px;
+    color: rgba(170, 167, 167, 0.945);
+    border: 1px solid rgba(207, 206, 206, 0.543);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:hover{
+    cursor: auto;
+}
+
+#submit-button{
+    margin-top: 10px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    background-color: #e04a5e;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit-button:hover{
+    cursor: pointer;
+    background-color: #e82640;
+}
+
+.download-from{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: rgba(170, 167, 167, 0.945);
+    font-size: 15px;
+}
+
+.download-options:hover{
+    cursor: pointer;
+}
+
+.exp-options{
+    margin: 0 81px;
+    min-height: 400px;
+    padding-top: 40px;
+}
+
+.options-near-me{
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.near-me{
+    padding-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tab{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(207, 206, 206, 0.543);
+    border-radius: 7px;
+    align-items: center;
+    font-size: 20;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.tab:hover{
+    cursor: pointer;
+}
+
+
+.footer{
+    padding: 0 81px;
+    background-color: rgba(237, 231, 231, 0.29);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-right{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+#india{
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    height: 40px;
+    width: 123px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#india:hover{
+    cursor: pointer;
+}
+
+#english{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 15px;
+    height: 40px;
+    width: 128px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#english:hover{
+    cursor: pointer;
+}
+
+.footer-content{
+   
+    padding-top: 30px;
+    min-height: 260px;
+    padding-right: 70px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.card-head strong{
+    font-size: 14px;
+    color: rgb(72, 71, 71);
+}
+
+.footer-card p{
+    padding-top: 12px;
+    font-size: 14px;
+    color: rgba(87, 86, 86, 0.945);
+}
+
+.card-sub1{
+    margin: 12px 0;
+}
+
+.card-sub2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+hr{
+    margin-top: 12px;
+}
+
+.copyright{
+    font-size: 14px;
+    color: rgba(87, 86, 86, 0.945);
+    
+}
+
+
+/* ------------ @media queries starting-------------- */
+
+
+@media only screen and (max-width:850px){
+    .body-content{
+        margin: 0 35px;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+    #app{
+        display: none;
+    }
+
+    nav{
+        padding: 30px 30px;
+    }
+
+    #nav-option{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        z-index: 3;    
+        width: 25px;
+        height: 18px;   
+    }
+
+    .hamburger-menu span{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        transition: transform .3s;
+    }
+
+    .hamburger-menu #line1{
+        transform: translateY(-8px);
+
+    }
+
+    .hamburger-menu #line3{
+        transform: translateY(8px);
+        
+    }
+
+    .toggled span{
+        background-color: black;
+    }
+
+    .toggled #line1{
+        transform: rotate(45deg);
+    }
+
+    .toggled #line2{
+        display: none;
+    }
+
+    .toggled #line3{
+        transform: rotate(-45deg);
+    }
+
+
+    .mobile-menu div{
+        text-align: right;
+        padding: 20px 20px;
+    }
+
+    .mobile-menu{
+        height: 100vh;
+    }
+
+    .active{
+        display: block;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .active li{
+        list-style: none;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+}
+
+
+
+@media only screen and (max-width:667px){
+    .zomato-app{
+        padding: 0 50px;
+    }
+
+    .left-side img{
+        display: none;
+    }
+
+    .right-head{
+        font-size: 30px;
+    }
+
+    .right-title{
+        font-size: 17px;
+    }
+
+
+    .footer-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:641px){
+    .localities-box{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+   .col{
+    width: 100%;
+   }
+
+}
